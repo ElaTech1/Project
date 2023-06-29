@@ -1,0 +1,245 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.heading {
+  display: flex;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 14px 16px;
+}
+
+.nav-links a:hover:not(.active) {
+  background-color: lightseagreen;
+}
+
+.nav-links li a.active {
+  background-color: #4caf50;
+}
+
+#home {
+  display: flex;
+  height: 100%;
+  height: -webkit-fill-available;
+  background: url(../image/a.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  padding-bottom: 80px;
+}
+
+.home .content {
+  width: 100%;
+}
+
+.home .content .imgc img {
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  width: 300px;
+  height: 300px;
+}
+
+.home .content h1 {
+  font-size: 4rem;
+  justify-content: space-between;
+  color: rgb(0, 255, 242);
+  padding: 1rem 0;
+  line-height: 1;
+  text-align: center;
+  font-family: Times, "Times New Roman", Times, serif;
+}
+
+.home .content p {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding: 0rem 0;
+  line-height: 1;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7;
+  font-weight: 300;
+  color: var(--text-gray);
+}
+
+.homebtn {
+  display: inline-block;
+  margin: auto;
+  margin-left: 65rem;
+  border-radius: 4rem;
+  background: var(--pink);
+  color: #e60d0d;
+  padding: 2.9rem 5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.homebtn:hover {
+  background: pink;
+  transition-delay: 1ms;
+  transform: scale(1.1);
+}
+
+/*Service Secation*/
+.our-service {
+  display: flex;
+  max-width: 100%;
+  height: max-content;
+  gap: 6rem;
+  padding: 24px;
+  flex-wrap: wrap;
+  background-image: url(/image/mm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
+
+.our-service .ser1 {
+  display: flex;
+  background-color: rgb(240, 245, 245);
+  padding: 24px;
+  width: 27vh;
+  height: 14vh;
+  height: -webkit-fill-available;
+  border-radius: 3rem;
+  border: 1.5px solid rgb(240, 245, 245);
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.ser1:hover {
+  transition-delay: 1ms;
+  transform: scale(1.1);
+  background: linear-gradient(yellow, pink);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: var(--bs-body-color);
+}
+
+.ms {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: auto;
+}
+
+.ms img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.ms .tit .tit-h3 {
+  margin: auto;
+  color: #1579ca;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ms .tit .tit-h33 {
+  margin: auto;
+  color: #1579ca;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 3.5rem;
+}
+
+.ms .tit .tit-p {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding: auto;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Portfolio Secation*/
+
+/*skill Secation*/
+.our-Skill {
+  display: flex;
+width: auto;
+  height: max-content;
+  gap: 1rem;
+  padding: 24px;
+  flex-wrap: wrap;
+  background:linear-gradient(to bottom  right, pink,lightblue);
+  padding: 0%;
+  
+}
+.skil1 {
+  display: flex;
+  padding: 20px;
+  width: 25vh;
+  height: 25vh;
+justify-items: center;
+  border-radius: 15rem;
+  background-color: rgb(255, 255, 255);
+  margin-left: 6.5rem;
+  margin-top:  3rem;
+  margin-bottom: 3rem;
+
+}
+
+.skil1:hover {
+  background: rgb(221, 23, 56);
+  transition: 1s;
+}
+
+.sk {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+}
+
+.sk img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
